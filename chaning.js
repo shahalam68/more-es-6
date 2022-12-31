@@ -1,7 +1,7 @@
 // declare variable based on the name of an object property
 const myObject = {x: 2, y:50, z: 600, a: 25, b: 68};
 const {x, b} = myObject;
-console.log(b);
+console.log('', myObject.p);
 
 
 
@@ -14,6 +14,9 @@ const [best,faltu] = ['momotaj','poroshi'];
 // console.log(best,faltu);
 const {sky,color,money} = {sky: 'blue', soil:'matti', color:'red',money: 500};
 
+
+
+//chaning 
 const company = { 
     name: 'GP', 
     ceo:{id: 1, name: 'ajmol', food: 'fuchka'},
@@ -27,3 +30,5 @@ const company = {
         }
 },
 };
+console.log(company.web.tech.third);
+console.log(company.backend.tech.third);
