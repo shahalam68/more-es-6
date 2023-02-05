@@ -2,7 +2,7 @@ const numbers = [5,13, 7, 41, 30,5,2,19];
 const bigNumber = numbers.filter(Number => Number > 20 );
 const smallNumber = numbers.filter(Number => Number < 10);
 // console.log(smallNumber);
-// console.log(bigNumber);
+console.log(bigNumber);
 
 const products = [
     {name:'water bottle', price: 50, color: 'yellow'},
@@ -13,3 +13,14 @@ const products = [
 ];
 const expensive = products.filter(product => product.price > 100);
 console.log(expensive);
+
+
+const blacks =  products.filter(product => product.color == 'black');
+console.log(blacks);
+
+
+// find
+
+
+const whiteItem = products.find(product => product.color == 'white');
+console.log(whiteItem);

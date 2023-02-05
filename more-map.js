@@ -1,4 +1,4 @@
-const friends = ['Tom Hanks', 'Tom croues', 'Tom Brady', 'Tom Soliman'];
+const friends = ['Tom Hanks', 'Tom Croues', 'Tom Brady', 'Tom Soliman'];
 
 
 const fLength = friends.map(friend => friend.length);
