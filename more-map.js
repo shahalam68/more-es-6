@@ -1,8 +1,8 @@
 const friends = ['Tom Hanks', 'Tom croues', 'Tom Brady', 'Tom Soliman'];
 
 
-const fLeangth = friends.map(friend => friend.length);
-console.log(fLeangth);
+const fLength = friends.map(friend => friend.length);
+console.log(fLength);
 const products = [
     {name:'water bottle', price: 50, color: 'yellow'},
     {name: 'mobile phone', price: 15000, color:'black'},
