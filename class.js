@@ -7,12 +7,15 @@ class Support {
         this.address = address;
     }
     startSession(){
-        console.log('start a support session')
+        console.log(this.name,'start a support session');
     }
 }
 
 const amir = new Support("Amir Khan ", "BD");
 const salman = new Support("Salman Khan","IND")
+
+
+
 
 console.log(amir);
 console.log(salman);
